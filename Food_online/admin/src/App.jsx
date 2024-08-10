@@ -13,8 +13,8 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 // import axios from "axios";
 const App = () => {
-  const url = "http://localhost:8000";
-  // const url = import.meta.env.VITE_APP_BACKEND_URL;
+  // const url = "http://localhost:8000";
+  const url = import.meta.env.VITE_APP_BACKEND_URL;
   // axios.defaults.baseURL = ;
   const [token,settoken]=useState(localStorage.getItem('token')?localStorage.getItem('token'):"")
   return (
