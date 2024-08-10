@@ -1,0 +1,82 @@
+.list-skeleton {
+  background: #f0f0f0;
+  border-radius: 4px;
+  margin: 5px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.list-skeleton::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+  animation: shimmer 2s infinite;
+}
+
+.list-skeleton-image,
+.list-skeleton-text {
+  position: relative;
+  z-index: 1;
+  background: #e0e0e0;
+  border-radius: 4px;
+}
+
+.list-skeleton-image {
+  width: 50px;
+  height: 50px;
+}
+
+.list-skeleton-text {
+  margin: 10px 0;
+}
+
+.list-skeleton-name-rating {
+  height: 20px;
+  width: 100px;
+}
+
+.list-skeleton-desc {
+  height: 15px;
+  width: 100px;
+}
+
+.list-skeleton-price {
+  height: 20px;
+  width: 50px;
+}
+
+.list-skeleton-action {
+  height: 20px;
+  width: 20px;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -1000px 0;
+  }
+  100% {
+    background-position: 1000px 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .list-skeleton-image {
+    display: none;
+  }
+
+  .list-skeleton-name-rating {
+    width: 60px;
+  }
+
+  .list-skeleton-desc {
+    width: 40px;
+  }
+
+  .list-skeleton-price {
+    width: 35px;
+  }
+}

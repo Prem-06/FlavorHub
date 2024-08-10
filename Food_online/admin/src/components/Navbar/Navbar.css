@@ -1,0 +1,71 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 4%;
+}
+
+.navbar .logo {
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  color: tomato;
+}
+.navbar .admin {
+  font-weight: 600;
+}
+
+.navbar .profile {
+  width: 40px;
+}
+.auth-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.auth-div a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.auth-div a:hover {
+  color: #0056b3;
+}
+
+.profile-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.profile-div .profile {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 7px;
+}
+
+.profile-div button {
+  background-color: #dc1b24;
+  color: white;
+  border: none;
+  height: 40px;
+  min-width: 90px;
+  width: auto;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-left: 7px;
+}
+
+.profile-div button:hover {
+  background-color: #c20811;
+}
