@@ -35,7 +35,7 @@ FlavorHub is a full-stack web application that enables users to browse through a
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/rajeevkrS/Food-Delivery-App
+   git clone https://github.com/Prem-06/Food-online.git
    cd food-delivery-app
    ```
 
