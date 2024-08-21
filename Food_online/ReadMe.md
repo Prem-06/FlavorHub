@@ -1,11 +1,10 @@
 <div align="center">
-    <h1 style="color: tomato;">MernEats.com</h1>
-
+    <h1 style="color: tomato;">FlavorHub</h1>
 </div>
 
 ## Introduction
 
-Mern-Eats.com is a full-stack web application that enables users to browse through a variety of dishes, place orders, track their order in real time and get food delivered to their doorstep efficiently. The application leverages the power of the MERN stack (MongoDB, Express.js, React.js, Node.js) to ensure a seamless user experience and robust performance.
+FlavorHub is a full-stack web application that enables users to browse through a variety of dishes, place orders, track their order in real time and get food delivered to their doorstep efficiently. The application leverages the power of the MERN stack (MongoDB, Express.js, React.js, Node.js) to ensure a seamless user experience and robust performance.
 
 ## 🖥️ Tech Stack
 
@@ -19,10 +18,7 @@ Mern-Eats.com is a full-stack web application that enables users to browse throu
 
 ![MongoDB](https://img.shields.io/badge/MongoDB-%2347A248?style=for-the-badge&logo=mongodb&logoColor=black)&nbsp;
 
-
-
 **Deployed On:**
-
 ![Render](https://img.shields.io/badge/Render-%23000000?style=for-the-badge&logo=render)&nbsp;
 
 ## Features
@@ -31,7 +27,6 @@ Mern-Eats.com is a full-stack web application that enables users to browse throu
 - **Browse**: Easily browse their favourite dishes.
 - **Order Placement**: Simple and intuitive process for placing orders.
 - **Order Tracking**: Real-time tracking of orders from preparation to delivery.
-- **Payment Gateway**: Secure payment processing.
 - **Admin Dashboard**: Admin interface for managing food and orders.
 - **Responsive Design**: Fully responsive design for seamless use on any device.
 
@@ -39,14 +34,14 @@ Mern-Eats.com is a full-stack web application that enables users to browse throu
 
 1. **Clone the repository**:
 
-   ```sh
+   ```bash
    git clone https://github.com/rajeevkrS/Food-Delivery-App
    cd food-delivery-app
    ```
 
 2. **Install dependencies in admin, backend and frontend**:
 
-   ```sh
+   ```bash
    cd admin
    npm install
 
@@ -67,21 +62,18 @@ Mern-Eats.com is a full-stack web application that enables users to browse throu
    # for password secret
    JWT_SECRET = your jwt secret
 
-   # for stripe payment
-   STRIPE_SECRET_KEY= your stripe secret key
-   ```
 
 4. **Run the application**:
    In the `admin` directory, start the React app:
-   ```sh
+   ```bash
    npm run dev
    ```
    In the `backend` directory, start the server:
-   ```sh
+   ```bash
    npm run server
    ```
    In the `frontend` directory, start the React app:
-   ```sh
+   ```bash
    npm run dev
    ```
 
@@ -104,13 +96,3 @@ Here are listed all available API endpoints along with a brief description of ea
 - `POST /api/order/userorders`: all orders of particular user
 - `GET /api/order/list`: get orders of all users in admin pannel
 - `POST /api/order/status`: update status of all orders
-
-## Admin Pannel Preview
-![Admin-Pannel](frontend/src/assets/merneats-admin-thumbnail.png)
-
-
-
-
-
-
-
